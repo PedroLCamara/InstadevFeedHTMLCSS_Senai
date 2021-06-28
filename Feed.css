@@ -8,7 +8,7 @@ body{
     background-color: #FAFAFA;
 }
 .container_grid{
-    width: 90vw;
+    width: 895px;
     margin: 0 auto;
 }
 header{
@@ -63,13 +63,11 @@ header{
     display: flex;
     flex-direction: row-reverse;
     align-items: baseline;
-    width: 90vw;
-    margin: 0 auto;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin-top: 77px;
 }
 aside{
-    margin-left: 0;
+    margin-left: 32px;
     float: right;
     width: auto;
 }
@@ -99,8 +97,11 @@ aside{
     font-weight: 400;
     color: #B6B6B6;
 }
+main{
+    width: 610px;
+}
 .container_grid_main{
-    width: 62vw;
+    width: 610px;
 }
 .Usuarios{
     height: 113px;
@@ -257,9 +258,10 @@ aside{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 30%;
+    width: 35%;
     margin-bottom: 6.5px;
     margin-left: 16px;
+    margin-top: 15px;
 }
 .post_interacoes_icon{
     font-size: 22px;
@@ -320,14 +322,6 @@ footer{
     text-decoration: none;
     color: lightskyblue;
 }
-@media (max-width: 1220px){
-    .container_grid{
-        width: 90vw;
-    }
-    .container_grid_main{
-        width: 62vw;
-    }
-}
 @media (max-width: 970px){
     .input_formulario_postar_descricao{
         width: 22vw;
@@ -384,6 +378,14 @@ footer{
     }
     .post_numlikes_comentarios{
         font-size: 1vw;
+    }
+}
+@media (max-width: 895px){
+    .container_grid{
+        width: 90vw;
+    }
+    .container_grid_main{
+        width: 62vw;
     }
 }
 @media (max-width: 550px){

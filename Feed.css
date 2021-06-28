@@ -15,7 +15,9 @@ header{
     border: 1px solid #F1F1F1;
     height: 53px;
     background-color: white;
-    margin-bottom: 53px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .container_header{
     height: 100%;
@@ -36,6 +38,7 @@ header{
     height: 28px;
     font-weight: 400;
     font-size: 13px;
+    border-radius: 2px;
 }
 .nav_header{
     width: 200px;
@@ -63,6 +66,7 @@ header{
     width: 90vw;
     margin: 0 auto;
     justify-content: space-between;
+    margin-top: 77px;
 }
 aside{
     margin-left: 0;
@@ -255,6 +259,7 @@ aside{
     align-items: center;
     width: 30%;
     margin-bottom: 6.5px;
+    margin-left: 16px;
 }
 .post_interacoes_icon{
     font-size: 22px;
@@ -274,6 +279,7 @@ aside{
     align-items: flex-start;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 13px;
+    margin-left: 16px;
 }
 .post_numlikes_comentarios span{
     margin-bottom: 12px;
@@ -292,6 +298,27 @@ aside{
 .comentarios_texto p{
     font-weight: 400;
     word-wrap: normal;
+}
+footer{
+    border: 1px solid #F1F1F1;
+    height: 100px;
+    background-color: white;
+}
+.container_footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+.container_footer a{
+    text-decoration: none;
+    color: lightskyblue;
 }
 @media (max-width: 1220px){
     .container_grid{
@@ -396,5 +423,8 @@ aside{
     .input_formulario_postar_submit{
         font-size: 1vw;
         height: 4vw;
+    }
+    .container_footer{
+        font-size: 3vw;
     }
 }

@@ -8,7 +8,7 @@ body{
     background-color: #FAFAFA;
 }
 .container_grid{
-    width: 895px;
+    width: 935px;
     margin: 0 auto;
 }
 header{
@@ -320,7 +320,7 @@ footer{
 }
 .container_footer a{
     text-decoration: none;
-    color: lightskyblue;
+    color: #2686CC;
 }
 @media (max-width: 970px){
     .input_formulario_postar_descricao{

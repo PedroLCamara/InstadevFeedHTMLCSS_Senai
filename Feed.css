@@ -303,11 +303,12 @@ main{
 }
 footer{
     border: 1px solid #F1F1F1;
-    height: 100px;
+    height: 250px;
     background-color: white;
 }
 .container_footer{
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
